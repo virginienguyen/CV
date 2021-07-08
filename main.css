@@ -1,10 +1,82 @@
+
+body {
+    margin: 0px;
+  }
+
+  /* navbar */
+
 .navbar-nav {
 font-family: 'Source Sans Pro', sans-serif;
 color: #8e8e8e;
 font-size: 15px;
 }
 
-.cv_index_intro {
+/* all backgrounds */
+
+.background_index {
+    width: 100%;
+    background-image: url(img/patate_homepage.svg);
+    height: 1080px;
+    background-size: cover;
+    text-align: left;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .background_Competences {
+    width: 100%;
+    background-image: url(img/patate_compétences.svg);
+    height: 1080px;
+    background-size: cover;
+    text-align: left;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .background_ExperiencesProfessionnelles {
+    width: 100%;
+    background-image: url(img/patate_experiencesprofessionnelles.svg);
+    height: 1080px;
+    background-size: cover;
+    text-align: left;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+
+  .background_Formations {
+    width: 100%;
+    background-color:#FEB340;
+    height: 1080px;
+    background-size: cover;
+    text-align: left;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .background_Projets {
+    width: 100%;
+    background-color:#DFDFFE;
+    height: 1080px;
+    background-size: cover;
+    text-align: left;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .background_Contact {
+    width: 100%;
+    background-image: url(img/patate_contact.svg);
+    height: 1080px;
+    background-size: cover;
+    text-align: left;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+/* texte intro page index */
+
+  .cv_index_intro {
     font-family: 'Sansita', sans-serif;
     font-weight: 700;
     font-size: 30px;
