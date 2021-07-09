@@ -37,7 +37,7 @@ font-size: 15px;
   .background_Competences {
     width: 100%;
     background-color:var(--lila);
-    height: 1200px;
+    height: 1080px;
     background-size: cover;
     text-align: center;
     background-position: center center;
@@ -102,18 +102,20 @@ font-size: 15px;
 
     font-family:var(--sourcesanspro);
     font-size: 0.512rem;
-    padding-top: 5rem;
+    padding-top: 2rem;
    
 }
 
+img {
+    margin-top: 1rem;
+}
 
 .col-md {
     font-family:var(--sourcesanspro);
     font-weight: 700;
     font-size: 1rem;
     padding-top: 2rem;
-  
-    
+align-items: center;
 }
 
 span {
@@ -121,5 +123,7 @@ span {
     padding: 0.8rem;
     padding-left:2rem;
     padding-right:2rem;
+    align-items: center;
+
 
         }
