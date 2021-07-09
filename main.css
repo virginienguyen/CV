@@ -90,7 +90,7 @@ font-size: 15px;
   .cv_index_intro {
     font-family: 'Sansita', sans-serif;
     font-weight: 700;
-    font-size: 1.875rem;
+    font-size: 1.9rem;
     line-height: 2.5rem;
     color: black;
 }
@@ -101,16 +101,11 @@ font-size: 15px;
     padding-top: 2rem;
 }
 
-
 .row {
     font-family:var(--sourcesanspro);
     font-size: 0.512rem;
     padding-top: 1rem;
-    
 }
-
-
-
 
 .competences_title {
     border-top:0.1rem solid black;
@@ -119,6 +114,4 @@ font-size: 15px;
     padding-right:2rem;
     align-items: center;
     font-size: 1rem;
-
-
         }
