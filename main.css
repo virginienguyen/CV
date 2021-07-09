@@ -118,12 +118,10 @@ img {
 align-items: center;
 }
 
-span {
+.competences_title {
     border-top:0.1rem solid black;
     padding: 0.8rem;
     padding-left:2rem;
     padding-right:2rem;
     align-items: center;
-
-
         }
