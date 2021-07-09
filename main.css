@@ -1,4 +1,14 @@
 
+:root {
+    --black: black;
+    --grismoyen:#8E8E8E;
+    --grisclair:#F5F5F5;
+    --jaune:#FEB340;
+    --rose:#F1608C;
+    --lila:#E0E0FF;
+    --sourcesanspro:'Source Sans Pro', sans-serif;
+}
+
 body {
     margin: 0px;
   }
@@ -6,8 +16,8 @@ body {
   /* navbar */
 
 .navbar-nav {
-font-family: 'Source Sans Pro', sans-serif;
-color: #8e8e8e;
+font-family:var(--sourcesanspro);
+color:var(--grismoyen);
 font-size: 15px;
 }
 
@@ -15,20 +25,21 @@ font-size: 15px;
 
 .background_index {
     width: 100%;
+    height: 600px;
     background-image: url(img/patate_homepage.svg);
-    height: 1080px;
     background-size: cover;
-    text-align: left;
     background-position: center center;
+    text-align: left;
     background-attachment: fixed;
+
   }
 
   .background_Competences {
     width: 100%;
-    background-image: url(img/patate_compétences.svg);
-    height: 1080px;
+    background-color:var(--lila);
+    height: 1200px;
     background-size: cover;
-    text-align: left;
+    text-align: center;
     background-position: center center;
     background-attachment: fixed;
   }
@@ -36,7 +47,7 @@ font-size: 15px;
   .background_ExperiencesProfessionnelles {
     width: 100%;
     background-image: url(img/patate_experiencesprofessionnelles.svg);
-    height: 1080px;
+    height: 1200px;
     background-size: cover;
     text-align: left;
     background-position: center center;
@@ -46,7 +57,7 @@ font-size: 15px;
 
   .background_Formations {
     width: 100%;
-    background-color:#FEB340;
+    background-color:var(--jaune);
     height: 1080px;
     background-size: cover;
     text-align: left;
@@ -79,7 +90,36 @@ font-size: 15px;
   .cv_index_intro {
     font-family: 'Sansita', sans-serif;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
     color: black;
 }
+
+/* page Compétences */
+
+
+.row {
+
+    font-family:var(--sourcesanspro);
+    font-size: 0.512rem;
+    padding-top: 5rem;
+   
+}
+
+
+.col-md {
+    font-family:var(--sourcesanspro);
+    font-weight: 700;
+    font-size: 1rem;
+    padding-top: 2rem;
+  
+    
+}
+
+span {
+    border-top:0.1rem solid black;
+    padding: 0.8rem;
+    padding-left:2rem;
+    padding-right:2rem;
+
+        }
