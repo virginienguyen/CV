@@ -13,6 +13,19 @@ body {
     margin: 0px;
   }
 
+ 
+
+ul {
+    margin-top: -2rem;;
+
+}
+
+li {
+    font-size: 0.7rem;
+    list-style: none;
+    margin-left: -2.5rem;
+}
+
   /* navbar */
 
 .navbar-nav {
@@ -90,7 +103,7 @@ font-size: 15px;
   .cv_index_intro {
     font-family: 'Sansita', sans-serif;
     font-weight: 700;
-    font-size: 1.9rem;
+    font-size: 2rem;
     line-height: 2.5rem;
     color: black;
 }
@@ -102,16 +115,31 @@ font-size: 15px;
 }
 
 .row {
+
     font-family:var(--sourcesanspro);
     font-size: 0.512rem;
     padding-top: 1rem;
 }
 
 .competences_title {
-    border-top:0.1rem solid black;
+    border-top:solid black;
     padding: 0.8rem;
     padding-left:2rem;
     padding-right:2rem;
     align-items: center;
     font-size: 1rem;
         }
+
+
+ /* page Expériences Professionnelles */
+
+.card-subtitle {
+    font-size: 0.7rem;
+}
+
+.card-title-job {
+    font-family:var(--sourcesanspro);
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 0.1rem;
+} 
