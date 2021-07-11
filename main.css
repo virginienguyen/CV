@@ -160,3 +160,26 @@ font-size: 15px;
     font-size: 0.8rem;
 } 
 
+/* page Formations */
+
+
+.card-name-formation {
+    font-family:var(--sourcesanspro);
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.card-formation {
+    font-family:var(--sourcesanspro);
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.card-details {
+
+    font-family:var(--sourcesanspro);
+    font-weight:normal;
+    font-size: 0.8rem;
+}
