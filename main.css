@@ -15,21 +15,18 @@ body {
 
 a {
     color: var(--rose);
-
-
 }
 a:link {
     color:var(--rose);
 }
 a:visited {
-    color: var(--grismoyen);
+    color: var(--jaune);
 }
 a:hover {
    color: var(--rose);
 }
 
 a:active {
-
     color: var(--jaune);
 }
 
@@ -198,6 +195,7 @@ font-size: 15px;
     font-family:var(--sourcesanspro);
     font-weight: normal;
     font-size: 1.2rem;
+    line-height: 1.4rem;
 
 }
 
@@ -206,6 +204,7 @@ font-size: 15px;
     font-family:var(--sourcesanspro);
     font-weight:normal;
     font-size: 0.8rem;
+    margin-top: 0.5rem;
 
 }
 
@@ -213,50 +212,55 @@ font-size: 15px;
 
 .card-body-projet {
     text-align: left;
-    width: 8rem;
-    margin-bottom: 8rem;
+    margin: 2rem;
+    border-top: 0.08rem solid black;
+    padding-top: 0.4rem;
+
 }
+
 
 .card-body-eye {
-    text-align: left;
-    width: 4rem;
-    margin-right: 3rem;
+    text-align: center;
+    width: 12rem;
 
 }
 
-
-
-#eye {
-        width: 60px;
-        height: 60px;
-        border-radius: 30px;
-        background:white;
-        display:inline-block;
-        position: absolute;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-#pupille {
-    z-index: 1;
-    width: 34px;
-    height: 34px;
-    border-radius: 17px;
-    top:50%;
-    left:0%;
-    background:black;
-    transform: translate(110%,34%);
-    position: absolute;
-    margin-left: 1rem;
-    margin-right: 1rem;
-
-    }
-
 .voir-projet {
-        font-family:var(--sourcesanspro);
+  font-family:var(--sourcesanspro);
         font-weight: normal;
         font-size: 1.2rem;
-    margin-top: 1.2rem;
+
     }
    
+
+    .eyes{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+      }
+      .eye{
+        width: 65px;
+        height: 65px;
+        background: #fff;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .ball{
+        width: 35px;
+        height: 35px;
+        background: #000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        border: 15px solid black;
+      }
+      
 

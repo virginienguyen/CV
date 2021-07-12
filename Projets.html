@@ -47,7 +47,7 @@
 
 <!-- ARTWORK -->
 
-<div class="col col-md-auto align-self-start">
+<div class="col col-md-auto align-self-start ">
   <div class="card-body-projet">
     <div class="card-details">Direction artistique, <br>Design graphique,<br> Scénographie…</div>
     <div class="voir-projet"><a href="vianh.fr" class="card-link">voir</a></div>
@@ -55,18 +55,19 @@
 </div>
 
 
-<!-- YEUX -->
-
-<div class="col col-md-auto align-self-center">
+<div class="col col-md-auto align-self-end ">
   <div class="card-body-eye">
-  <div class="eye" id="eye"></div><div class="pupille" id="pupille"></div>
-</div>
-</div>
-<!-- YEUX -->
 
-<div class="col col-md-auto align-self-center">
-  <div class="card-body-eye">
-  <div class="eye" id="eye"></div><div class="pupille" id="pupille"></div>
+<div class="eyes">
+  <div class="eye">
+    <div class="ball"></div>
+  </div>
+
+  <div class="eye">
+    <div class="ball"></div>
+  </div>
+</div>
+
 </div>
 </div>
 
@@ -77,6 +78,7 @@
     <div class="card-details">UX, UI Design<br>
       Développement <br>
       Front-end</div>
+      
 
     <div class="voir-projet"><a href="#" class="card-link">voir</a>
     </div>
@@ -101,6 +103,8 @@
 
 
 
+
+
     </div>
 
 
@@ -110,7 +114,23 @@
 
 
 
-
+    <script>
+      var balls = document.getElementsByClassName("ball");
+      document.onmousemove = function(){
+        var x = event.clientX * 80 / window.innerWidth + "%";
+        var y = event.clientY * 80 / window.innerHeight + "%";
+        //event.clientX => get the horizontal coordinate of the mouse
+        //event.clientY => get the Vertical coordinate of the mouse
+        //window.innerWidth => get the browser width
+        //window.innerHeight => get the browser height
+    
+        for(var i=0;i<2;i++){
+          balls[i].style.left = x;
+          balls[i].style.top = y;
+          balls[i].style.transform = "translate(-"+x+",-"+y+")";
+        }
+      }
+    </script>
 
 
 
