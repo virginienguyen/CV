@@ -13,7 +13,27 @@ body {
     margin: 0px;
   }
 
- 
+a {
+    color: var(--rose);
+
+
+}
+a:link {
+    color:var(--rose);
+}
+a:visited {
+    color: var(--grismoyen);
+}
+a:hover {
+   color: var(--rose);
+}
+
+a:active {
+
+    color: var(--jaune);
+}
+
+
 
 ul {
     margin-top: -2rem;;
@@ -70,7 +90,7 @@ font-size: 15px;
   .background_Formations {
     width: 100%;
     background-color:var(--jaune);
-    height: 1080px;
+    height: 500px;
     background-size: cover;
     text-align: left;
     background-position: center center;
@@ -162,7 +182,10 @@ font-size: 15px;
 } 
 
 /* page Formations */
+.card-body {
+    width: 20rem;
 
+}
 
 .card-name-formation {
     font-family:var(--sourcesanspro);
@@ -173,8 +196,8 @@ font-size: 15px;
 
 .card-formation {
     font-family:var(--sourcesanspro);
-    font-weight: bold;
-    font-size: 1rem;
+    font-weight: normal;
+    font-size: 1.2rem;
 
 }
 
@@ -183,9 +206,57 @@ font-size: 15px;
     font-family:var(--sourcesanspro);
     font-weight:normal;
     font-size: 0.8rem;
-}
-.card-body {
-
-    /* border-right: 0.08rem solid black; */
 
 }
+
+/* page Projets */
+
+.card-body-projet {
+    text-align: left;
+    width: 8rem;
+    margin-bottom: 8rem;
+}
+
+.card-body-eye {
+    text-align: left;
+    width: 4rem;
+    margin-right: 3rem;
+
+}
+
+
+
+#eye {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background:white;
+        display:inline-block;
+        position: absolute;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+#pupille {
+    z-index: 1;
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    top:50%;
+    left:0%;
+    background:black;
+    transform: translate(110%,34%);
+    position: absolute;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    }
+
+.voir-projet {
+        font-family:var(--sourcesanspro);
+        font-weight: normal;
+        font-size: 1.2rem;
+    margin-top: 1.2rem;
+    }
+   
+
