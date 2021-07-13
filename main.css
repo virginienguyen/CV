@@ -44,6 +44,19 @@ li {
     font-size: 0.7rem;
     list-style: none;
     margin-left: -2.5rem;
+    text-align: left;
+
+}
+
+
+.titreSection{
+    font-family: var(--sourcesanspro);
+    font-size: 2.6rem;
+    color: black;
+    padding-top: 3rem;
+    text-align: center;
+
+
 }
 
   /* navbar */
@@ -81,7 +94,8 @@ font-size: 15px;
       
     width: 100%;
     background-image: url(img/patate_experiencesprofessionnelles.svg);
-    height: 1080px;
+    height: 1200px;
+    text-align: center;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -93,7 +107,7 @@ font-size: 15px;
     background-color:var(--jaune);
     height: 500px;
     background-size: cover;
-    text-align: left;
+    text-align: center;
     background-position: center center;
     background-attachment: fixed;
   }
@@ -101,21 +115,22 @@ font-size: 15px;
   .background_Projets {
     width: 100%;
     background-color:#DFDFFE;
-    height: 500px;
+    height: 400px;
     background-size: cover;
-    text-align: left;
+    text-align: center;
     background-position: center center;
     background-attachment: fixed;
+
   }
 
   .background_Contact {
     width: 100%;
     background-image: url(img/patate_contact.svg);
     height: 580px;
+    text-align: center;
     background-size: cover;
     background-position: center center;
-    display:grid;
-    align-items: center;
+  
   }
 
 /* page index */
@@ -174,7 +189,7 @@ font-size: 15px;
     font-size: 0.7rem;
     border-top: 0.08rem solid black;
     padding-top:1rem;
-    margin-top: 2rem;
+    text-align: left;
 
 }
 
@@ -182,6 +197,8 @@ font-size: 15px;
     font-family:var(--sourcesanspro);
     font-weight: bold;
     font-size: 1.2rem;
+    text-align: left;
+
 } 
 .card-brand-job {
     font-family:var(--sourcesanspro);
@@ -189,12 +206,16 @@ font-size: 15px;
     font-size: 1.2rem;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
+    text-align: left;
+
 } 
 
 .card-place-job {
     font-family:var(--sourcesanspro);
     font-weight: normal;
     font-size: 0.8rem;
+    text-align: left;
+
 } 
 
 .card-body-pro {
@@ -210,6 +231,7 @@ font-size: 15px;
     font-family:var(--sourcesanspro);
     font-weight: bold;
     font-size: 1.2rem;
+    text-align: left;
 
 }
 
@@ -218,6 +240,8 @@ font-size: 15px;
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-align: left;
+
 
 }
 
@@ -227,6 +251,8 @@ font-size: 15px;
     font-weight:normal;
     font-size: 0.8rem;
     margin-top: 0.5rem;
+    text-align: left;
+
 
 }
 
@@ -234,15 +260,14 @@ font-size: 15px;
 
 .card-body-projet {
     text-align: left;
-    margin: 2rem;
     border-top: 0.08rem solid black;
     padding-top: 0.4rem;
+    margin:1rem;
 
 }
 
 
 .card-body-eye {
-    text-align: center;
     width: 12rem;
 
 }
@@ -319,3 +344,29 @@ align-items: center;
 padding: 1rem;
 }
 
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+
+}
+.footer-credit {
+font-size: 0.6rem;
+text-align: center;
+padding: 2rem;
+color: white;
+
+}
+
+#footer-reseaux {
+    padding-left: 0.5rem;
+    font-size: 2rem;
+    color: white;
+    }
+
+.footerreseaux {
+text-align: right;
+    padding: 2rem;
+    color: white;
+}
