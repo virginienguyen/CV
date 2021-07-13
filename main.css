@@ -23,19 +23,22 @@ a:visited {
     color: var(--jaune);
 }
 a:hover {
-   color: var(--rose);
+   color:black;
 }
 
 a:active {
     color: var(--jaune);
 }
 
+i {
 
-
-ul {
-    margin-top: -2rem;;
+    font-size: 1rem;
+    color:var(--grismoyen);
+    padding-right: 1rem;
 
 }
+
+
 
 li {
     font-size: 0.7rem;
@@ -55,7 +58,7 @@ font-size: 15px;
 
 .background_index {
     width: 100%;
-    height: 600px;
+    height: 520px;
     background-image: url(img/patate_homepage.svg);
     background-size: cover;
     background-position: center center;
@@ -75,9 +78,10 @@ font-size: 15px;
   }
 
   .background_ExperiencesProfessionnelles {
+      
     width: 100%;
     background-image: url(img/patate_experiencesprofessionnelles.svg);
-    height: 750px;
+    height: 1080px;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -97,7 +101,7 @@ font-size: 15px;
   .background_Projets {
     width: 100%;
     background-color:#DFDFFE;
-    height: 1080px;
+    height: 500px;
     background-size: cover;
     text-align: left;
     background-position: center center;
@@ -107,11 +111,11 @@ font-size: 15px;
   .background_Contact {
     width: 100%;
     background-image: url(img/patate_contact.svg);
-    height: 1080px;
+    height: 580px;
     background-size: cover;
-    text-align: left;
     background-position: center center;
-    background-attachment: fixed;
+    display:grid;
+    align-items: center;
   }
 
 /* page index */
@@ -152,22 +156,37 @@ font-size: 15px;
         }
 
 
+
+
  /* page Expériences Professionnelles */
 
+
+ .card {
+     border-radius:10px;
+     border: 0.08rem solid white;
+
+ }
+
+ .card-title {
+     color:var(--jaune);
+ }
 .card-subtitle {
     font-size: 0.7rem;
-    padding-top: 0.5rem;
+    border-top: 0.08rem solid black;
+    padding-top:1rem;
+    margin-top: 2rem;
+
 }
 
 .card-title-job {
     font-family:var(--sourcesanspro);
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
 } 
 .card-brand-job {
     font-family:var(--sourcesanspro);
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
 } 
@@ -178,10 +197,13 @@ font-size: 15px;
     font-size: 0.8rem;
 } 
 
+.card-body-pro {
+    width: 20rem;
+}
+
 /* page Formations */
 .card-body {
     width: 20rem;
-
 }
 
 .card-name-formation {
@@ -226,9 +248,10 @@ font-size: 15px;
 }
 
 .voir-projet {
-  font-family:var(--sourcesanspro);
-        font-weight: normal;
-        font-size: 1.2rem;
+    font-family:var(--sourcesanspro);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
 
     }
    
@@ -263,4 +286,36 @@ font-size: 15px;
         border: 15px solid black;
       }
       
+
+/* page Contact */
+
+.card-contact {
+    font-family:var(--sourcesanspro);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+
+
+} 
+.idcontact {
+    font-family:var(--sourcesanspro);
+    font-weight:normal;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: left;
+    margin-left: 0.5rem;
+
+
+}
+
+.cardbordercontact {
+border: 0.08rem solid white;
+width: 20rem;
+border-radius: 8px;
+background-color: white;
+align-items: center;
+padding: 1rem;
+}
 
