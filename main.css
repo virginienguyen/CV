@@ -83,7 +83,7 @@ font-size: 15px;
   .background_Competences {
     width: 100%;
     background-color:var(--lila);
-    height: 1080px;
+    height: 1200px;
     background-size: cover;
     text-align: center;
     background-position: center center;
@@ -94,7 +94,7 @@ font-size: 15px;
       
     width: 100%;
     background-image: url(img/patate_experiencesprofessionnelles.svg);
-    height: 1200px;
+    height: 1080px;
     text-align: center;
     background-size: cover;
     background-position: center center;
@@ -115,7 +115,7 @@ font-size: 15px;
   .background_Projets {
     width: 100%;
     background-color:#DFDFFE;
-    height: 400px;
+    height: 450px;
     background-size: cover;
     text-align: center;
     background-position: center center;
